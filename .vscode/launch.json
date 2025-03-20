@@ -13,15 +13,16 @@
             "type": "cortex-debug",
             "targetId": "STM32F401RCTx",
             // "runToEntryPoint": "main",
-            "servertype": "pyocd",
+            "servertype": "external",
+            "gdbTarget": "192.168.8.100:3333",
             "showDevDebugOutput": "raw",
             "interface": "swd",
             // "liveWatch": {
             //     "enabled": true,
             //     "samplesPerSecond": 4
             // },
-            // "svdPath": "/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.2.0.202411061604/resources/cmsis/STMicroelectronics_CMSIS_SVD",
-            "svdPath": "D:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.1.400.202406181626/resources/cmsis/STMicroelectronics_CMSIS_SVD",
+            "svdPath": "/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.2.0.202411061604/resources/cmsis/STMicroelectronics_CMSIS_SVD",
+            // "svdPath": "D:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.1.400.202406181626/resources/cmsis/STMicroelectronics_CMSIS_SVD",
             "svdFile": "STM32F401.svd",
         }
     ]
