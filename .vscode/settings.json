@@ -4,6 +4,11 @@
         "gpio.h": "c",
         "main.h": "c",
         "usb_device.h": "c",
-        "usbd_cdc_if.h": "c"
-    }
+        "usbd_cdc_if.h": "c",
+        "heater.h": "c",
+        "tim.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true
 }

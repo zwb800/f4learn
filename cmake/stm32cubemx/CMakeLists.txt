@@ -27,6 +27,7 @@ target_include_directories(stm32cubemx INTERFACE
 target_sources(stm32cubemx INTERFACE
     ../../Core/Src/main.c
     ../../Core/Src/arduino.cpp
+    ../../Core/Src/heater.c
     ../../Core/Src/gpio.c
     ../../Core/Src/tim.c
     ../../Core/Src/stm32f4xx_it.c
