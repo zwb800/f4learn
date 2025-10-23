@@ -6,7 +6,7 @@
 #endif
 
 #include <stdint.h>
-static uint8_t heaterResetCounter = 0;
+extern uint8_t heaterResetCounter;
 void SetWaterHearterPower(uint8_t pwm);
 #ifdef __cplusplus
 }

@@ -1,6 +1,6 @@
     #include "heater.h"
     #include "tim.h"
-
+    uint8_t heaterResetCounter = 0;
     void SetWaterHearterPower(uint8_t pwm)
     {
         uint32_t p = 20000 * pwm / 255;

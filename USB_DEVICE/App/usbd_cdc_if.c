@@ -265,7 +265,7 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
     heaterResetCounter = 5;
     SetWaterHearterPower(Buf[0]);
   }
-
+  CDC_Transmit_FS(Buf,*Len);
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
   return (USBD_OK);
