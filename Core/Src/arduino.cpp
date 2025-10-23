@@ -41,6 +41,7 @@ extern "C"{
     uint8_t relayDelay;
 
     void setup(){
+       HearterSetup();
        SetWaterHearterPower(0);
        heaterResetCounter = 5;
     }
