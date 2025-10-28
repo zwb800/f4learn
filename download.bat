@@ -1,0 +1,1 @@
+scp -P 17708 build/Debug/f4learn.elf zwb@frp-now.com:/home/zwb/ 
