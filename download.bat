@@ -1,3 +1,3 @@
 cmake  --build build/Debug
-scp -P 17708 build/Debug/f4learn.elf zwb@frp-now.com:/home/zwb/ 
-ssh -p 17708 zwb@frp-now.com /home/zwb/flash.sh
+scp build/Debug/f4learn.elf zwb@192.168.10.6:/home/zwb/ 
+ssh zwb@192.168.10.6 /home/zwb/flash.sh
